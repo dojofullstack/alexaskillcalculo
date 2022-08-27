@@ -1,0 +1,110 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "abrir pruebas",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hola",
+            "como estás",
+            "di hola mundo",
+            "di hola",
+            "hola mundo"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "velocidad",
+          "slots": [
+            {
+              "name": "valor_velocidad",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "la velocidad es {valor_velocidad}"
+          ]
+        },
+        {
+          "name": "tiempo",
+          "slots": [
+            {
+              "name": "valor_tiempo",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "el tiempo es {valor_tiempo}"
+          ]
+        },
+        {
+          "name": "Calcular_densidad",
+          "slots": [],
+          "samples": [
+            "calcular densidad de energia",
+            "calcular densidad"
+          ]
+        },
+        {
+          "name": "diametro",
+          "slots": [
+            {
+              "name": "valor_diametro",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "el diametro es {valor_diametro}"
+          ]
+        },
+        {
+          "name": "frecuencia",
+          "slots": [
+            {
+              "name": "valor_frecuencia",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "la frecuencia es {valor_frecuencia}"
+          ]
+        },
+        {
+          "name": "potencia",
+          "slots": [
+            {
+              "name": "valor_potencia",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "la potencia es {valor_potencia}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "6"
+}
